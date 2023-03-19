@@ -20,6 +20,9 @@ public class Main {
         int size = myBinaryTree.getSize();
         System.out.println("size = " + size);
 
+        Integer result = myBinaryTree.searchKey(63);
+        if (result == 1) System.out.println("key was found");
+        else System.out.println("key not found");
 
 
     }
